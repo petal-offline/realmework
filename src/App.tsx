@@ -944,7 +944,7 @@ export default function App() {
                         <div className="rounded-2xl overflow-hidden border border-black/10 bg-[#1D1D1F]">
                           {!reviewImgError ? (
                             <img
-                              src="/assets/aistudio/image_1882cb93.png"
+                              src={`${import.meta.env.BASE_URL}assets/aistudio/image_1882cb93.png`}
                               alt="Google Review Summary 4.0 stars from 768 reviews for Realme Service Center Janakpuri"
                               referrerPolicy="no-referrer"
                               onError={() => setReviewImgError(true)}
@@ -959,7 +959,7 @@ export default function App() {
                         <div className="rounded-2xl overflow-hidden border border-black/10 bg-[#1D1D1F]">
                           {!hoursImgError ? (
                             <img
-                              src="/assets/aistudio/image_ec24e539.png"
+                              src={`${import.meta.env.BASE_URL}assets/aistudio/image_ec24e539.png`}
                               alt="Realme Service Center Janakpuri operating hours Monday to Saturday 10 am to 7 pm, Sunday Closed"
                               referrerPolicy="no-referrer"
                               onError={() => setHoursImgError(true)}
@@ -1029,7 +1029,7 @@ export default function App() {
                     {!facilityImgError ? (
                       <div className="relative h-[260px] sm:h-[340px] w-full overflow-hidden">
                         <img
-                          src="/assets/aistudio/image_b15e0d26.png"
+                          src={`${import.meta.env.BASE_URL}assets/aistudio/image_b15e0d26.png`}
                           alt="Realme Authorised Service Centre Janakpuri reception counter and customer waiting lounge at Shop No F19 DDA Building"
                           referrerPolicy="no-referrer"
                           onError={() => setFacilityImgError(true)}
