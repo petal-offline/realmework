@@ -1,0 +1,6 @@
+{
+  "name": "Realme Care Janakpuri — Authorised Service Studio",
+  "description": "Apple-inspired hardware repair studio, live screen & airbuds repair cost estimator, and priority walk-in booking for Realme Authorised Service Center, Janakpuri District Center, New Delhi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
